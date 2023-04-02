@@ -1,0 +1,16 @@
+<mat-toolbar class="navbar" color="accent">
+  <button class="header"><a href="/">Secure Spark</a></button>
+  <span class="example-spacer"></span>
+  <img
+    *ngIf="logoutButton"
+    class="profile"
+    src="assets\images\person_FILL0_wght400_GRAD0_opsz48.png"
+    alt="profile_img"
+  />
+  <button *ngIf="logoutButton" class="logout" color="warn" (click)="logout()">
+    <img
+      src="assets\images\logout_FILL0_wght400_GRAD0_opsz48.png"
+      alt="profile_img"
+    />
+  </button>
+</mat-toolbar>

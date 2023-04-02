@@ -1,0 +1,28 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+.header {
+  border-style: none;
+  background-color: transparent;
+  font-size: larger;
+  font-weight: 550;
+  a {
+    text-decoration: none;
+  }
+}
+.header:hover {
+  cursor: pointer;
+}
+.logout {
+  background-color: transparent;
+  border: none;
+  img {
+    height: 35px;
+    width: 35px;
+  }
+}
+.profile {
+  height: 40px;
+  width: 38px;
+  margin-bottom: 3px;
+}
